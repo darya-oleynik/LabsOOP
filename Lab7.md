@@ -474,7 +474,7 @@ public final class CurrencyConverter {
 }
 ```
 
-### **Файл&#x20;**`accounts.csv`
+### **3.7. Файл&#x20;**`accounts.csv`
 
 Расположение: `src/main/resources/accounts.csv`
 
@@ -545,7 +545,7 @@ id,accountNumber,ownerName,balance,currency,openedDate
 61,ACCT-100001,"Дубликат первого счёта",999.00,USD,2024-06-14
 ```
 
-### **Файл&#x20;**`accounts_clean.csv`
+### **3.8. Файл&#x20;**`accounts_clean.csv`
 
 Расположение: `src/main/resources/accounts_clean.csv`
 
@@ -610,7 +610,7 @@ id,accountNumber,ownerName,balance,currency,openedDate,balanceInRUB
 55,"ACCT-100055","Кузнецов Дмитрий Игоревич",18648.15,USD,2020-07-01,1678333.50
 ```
 
-### **Результат обработки CSV-файлов**
+### **4.1. Результат обработки CSV-файлов**
 
 В ходе обработки исходного файла программа должна:
 
@@ -624,7 +624,7 @@ id,accountNumber,ownerName,balance,currency,openedDate,balanceInRUB
 
 В результате исходный файл содержит 61 запись, а очищенный файл — 55 корректных записей.
 
-## **4. Вывод программы**
+## **4.2. Вывод программы**
 
 ```
 === Лабораторная работа №7. Вариант 8: Счета ===
